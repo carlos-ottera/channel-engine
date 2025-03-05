@@ -30,8 +30,8 @@
   "dependencies": {
     "@eyevinn/hls-repeat": "^0.2.0",
     "@eyevinn/hls-truncate": "^0.3.0",
-    "@eyevinn/hls-vodtolive": "git+https://github.com/carlosjcuevasm/hls-vodtolive",
-    "@eyevinn/m3u8": "git+https://github.com/carlosjcuevasm/node-m3u8.git",
+    "@eyevinn/hls-vodtolive": "git+https://github.com/carlos-ottera/hls-vodtolive",
+    "@eyevinn/m3u8": "git+https://github.com/carlos-ottera/node-m3u8.git",
     "abort-controller": "^3.0.0",
     "debug": "^3.2.7",
     "ioredis": "^5.3.2",
