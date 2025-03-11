@@ -6,6 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc --project ./ && cp ./package.json dist/",
+    "prepare": "npm run build",
     "debug-server": "DEBUG=engine-*,vod-to-live node dist/server.js",
     "test": "jasmine",
     "version:rc": "npm version prerelease --preid=rc",
